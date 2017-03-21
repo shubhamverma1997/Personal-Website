@@ -46,20 +46,7 @@ p
 {
 	text-align: center;
 }
-.divid{
-	display:inline-block;
-	border:2px solid #edf4ed;
-	border-radius:100%;
-	width: 200px;
-	height: 200px;
-	background-color: #deef6e;
-	text-align: center;
-	margin-left: 40em;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	left: 0;
-	right: 0;
-}
+
 #divfb{
 	display:inline-block;
 	border:2px solid black;
@@ -68,12 +55,10 @@ p
 	left:0;
 	right: 0;
 }
-#al{
-	margin-top: 20px;
-	line-height:200px;
-	padding: 0px 0px 0px 0px;
-}
+
 .im{
+	width: 15em;
+	height: 15em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -83,6 +68,7 @@ p
 	max-width: 100%;
 	max-height: 100%;
 	padding: 2px 2px 2px 2px;
+	border: 2px dashed black;
 }
 .imfb{
 	display: block;
@@ -116,7 +102,7 @@ p
 </head>
 <body id="bid">
 
-	<div class="divid" id="al">
+	<div>
 		<img class ="im" src="dp.jpg" size="1px">
 	</div>
 
@@ -153,6 +139,7 @@ p
 			<p>
 				<button  onclick="location.href='https://www.google.com';" type="submit" class="btn btn-danger" role="button">Button</button>
 				<input type="button" value="Info" class="btn btn-info">
+				<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
 			</p>
 		</div>
 
