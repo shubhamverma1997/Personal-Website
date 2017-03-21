@@ -10,7 +10,7 @@
 
 <style>
 .jumbotron{
-	background-color:#deef6e;
+	background-color:#12e2ab;
 	color:white;
 }
 .tab-content{
@@ -40,6 +40,7 @@ p
 {
 	font-family: 'Lobster';
 	text-align: center;
+	vertical-align: center;
 }
 .np
 {
@@ -59,12 +60,20 @@ p
 	left: 0;
 	right: 0;
 }
+#divfb{
+	display:inline-block;
+	border:2px solid black;
+	width :40px;
+	height: 40px;
+	left:0;
+	right: 0;
+}
 #al{
 	margin-top: 20px;
 	line-height:200px;
 	padding: 0px 0px 0px 0px;
 }
-#im{
+.im{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -75,16 +84,40 @@ p
 	max-height: 100%;
 	padding: 2px 2px 2px 2px;
 }
+.imfb{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom:auto;
+	max-width :100%;
+	max-height: 100%; 
+	height: 30px;
+	width:30px;
+
+}
+.imfbpad{
+	padding:2px 2px 2px 2px;
+}
 .container{
 	padding: 2px 2px 2px 2px;
 	margin-top: -4 	0px;
 }
+#divbgi1{
+	background-image: url("divbg.jpg");
+	height: 20px;
+	text-align: center;
+}
+.in{
+	display: inline-block;
+}
+
 </style>
 </head>
 <body id="bid">
 
 	<div class="divid" id="al">
-		<img id ="im" src="dp2.png" size="1px">
+		<img class ="im" src="dp.jpg" size="1px">
 	</div>
 
 
@@ -95,7 +128,35 @@ p
 			<h1 class="big1">SHUBHAM VERMA</h1	>
 			<p class="np" style="margin-top:1px; ">Welcome to my website!!!!</p>
 		</div>
-		<
+	<!--	<div class="jumbotron" id="divbgi1">
+			<p>I am a B.Tech computer science student at Delhi Technological University . I did my senior secondary education from Maharaja Agrasen Model School . </p>	
+		</div>
+		-->
+		<div class="big1" >
+		<p class="in">
+			<a href="https://www.github.com/shubhamverma1997" class="btn btn-default btn-lg" role="button"><img class="imfb" src="gh.png"></a>
+		</p>
+		<p class="in" >
+			<a href="https://www.facebook.com/profile.php?id=100002004716495" id="divfb1" class="btn btn-default btn-lg" role="button" ><img class="imfb" src="fb.jpg"></a>
+		</p>
+
+		<p class="in" >
+			<a href="https://www.linkedin.com/in/shubham-verma-061388123/" id="divfb1" class="btn btn-default btn-lg" role="button" ><img class="imfb" src="in.png"></a>
+		</p>
+
+		<p class="in" >
+			<a href="https://www.codechef.com/users/trashmaster" id="divfb1" class="btn btn-default btn-lg" role="button" ><img class="imfb" src="cc.jpeg"></a>
+		</p>
+		</div>
+
+		<div>
+			<p>
+				<button  onclick="location.href='https://www.google.com';" type="submit" class="btn btn-danger" role="button">Button</button>
+				<input type="button" value="Info" class="btn btn-info">
+			</p>
+		</div>
+
+
 	</div>
 
 
